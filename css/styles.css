@@ -115,18 +115,20 @@ body {
 
 }
 
-.page-filters .container>ul>li {
+.page-filters .container > ul > li {
 	padding: 3px;
 	display: inline-block;
-	font-size: 12px;
+	font-size: 10px;
 }
 
-.page-filters .container>ul {
+.page-filters .container > ul {
 	list-style: none;
 }
 
 
-
+.filtex {
+	font-size: 10px;
+}
 
 
 
