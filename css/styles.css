@@ -98,6 +98,35 @@ body {
 
 }
 
+.filtersall {
+	width: 14rem;
+	/**font-size: 11px;**/
+}
+
+
+/**PAGE FILTERS**/
+
+.page-filters {
+	position: relative;
+	margin:0 0 15px 0;
+	padding: 10px;
+	border-bottom: 1px solid #f5f5f5;
+	z-index: 10;
+
+}
+
+.page-filters .container>ul>li {
+	padding: 3px;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.page-filters .container>ul {
+	list-style: none;
+}
+
+
+
 
 
 
@@ -194,8 +223,13 @@ body {
 }
 
 .card-s {
+
     margin-top: 50px;
     margin-bottom: 80px;
+}
+
+.card-s2 {
+
 }
 
 
