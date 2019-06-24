@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Mallanna&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 </head>
 <body>
   <header>
@@ -35,8 +36,8 @@
   
         <nav class="navbar navbar-expand-lg navbar-dark dflex flex-column bg-dark text-white">
             <div class="container-fluid">  
-              <div class="row">
-                        <a class="navbar-brand pull-left active" id="brand" href="index.html" style="color: #F59A28;">goomkoom<span class="sr-only">(current)</span></a>
+              <div class="">
+                        <a class="navbar-brand pull-left" id="brand" href="index.html" style="color: #ffcc00;">goomkoom</a>
                         </div>
                         <button class="navbar-toggler align-self-end" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -51,15 +52,29 @@
 
 
 
-                        <ul class="navbar-nav ml-auto d-flex flex-nowrap">
-                          <li class="nav-item dropdown">
+        <!---ICONS CART RATINGS--->                
+
+
+                       <a href="ratings.html">
+                        <i class='far fa-heart' style='font-size:20px; margin-right: 22px;'></i>
+                        <br>
+                      </a>
+
+                       <a href="shopping-cart.html">
+                         <i class='fas fa-shopping-cart' style='font-size:20px; color: #ffcc00; margin-right: 10px;'></i>
+                       </a> 
+                         <br>
+
+
+                        <ul class="navbar-nav ml-auto d-none d-lg-block d-xl-block">
+                          <!--<li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-folder-open" aria-hidden="true"></i>Categories</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                               <a class="dropdown-item" href="#">Account</a>
                               <a class="dropdown-item" href="#">Cart</a>
                               <a class="dropdown-item" href="#">Wish List</a>
                             </div>
-                          </li>
+                          </li>-->
                           <li>
                               <a href="#" class="btn btn-outline-primary"><i class="fa fa-user"></i> Sign in</a>
                           </li>
@@ -132,38 +147,38 @@ Best image width 1350px so as to center text properly
   <div class="carousel-inner">
     
 <div class="carousel-item active text-center bannercon">
-  <img src="images/carousel1.jpg" alt="Poinsetta">
+  <img src="images/carousel1.jpg" alt="Poinsetta" class="image-responsive">
   <div class="carousel-caption d-none d-md-block">
-    <section class="banner-text">
+    <section class="banner-text"><a href="" class="text-decoration-none text-white">
     <h5 class="">Craft Central!</h5>
-    <p class="">This is where buyers meet with creative talents and suppliers.</p>
+    <p class="">This is where buyers meet with creative talents and suppliers.</p></a>
   </section>
   </div>
 </div>
 <div class="carousel-item text-center bannercon">
-  <img src="images/carousel2.jpg" alt="Poinsetta">
+  <img src="images/carousel2.jpg" alt="Poinsetta" class="image-responsive">
   <div class="carousel-caption d-none d-md-block">
-    <section class="banner-text">
+    <section class="banner-text"><a href="" class="text-decoration-none text-white">
     <h5 class="">Gifts Galore!</h5>
-    <p class="">Browse our extensive catalogue for one of a kind gifts.</p>
+    <p class="">Browse our extensive catalogue for one of a kind gifts.</p></a>
   </section>
   </div>
 </div>
 <div class="carousel-item text-center bannercon">
-  <img src="images/carousel3.jpg" alt="Poinsetta">
+  <img src="images/carousel3.jpg" alt="Poinsetta" class="image-responsive">
   <div class="carousel-caption d-none d-md-block">
-    <section class="banner-text">
+    <section class="banner-text"><a href="" class="text-decoration-none text-white">
     <h5 class="">Sell with us!</h5>
-    <p class="">Let us take on the hustles so you can create without distractions. </p>
+    <p class="">Let us take on the hustles so you can create without distractions. </p></a>
   </section>
   </div>
 </div>
 <div class="carousel-item text-center bannercon">
-  <img src="images/sparks.jpg" alt="Poinsetta">
+  <img src="images/sparks.jpg" alt="Poinsetta" class="image-responsive">
   <div class="carousel-caption d-none d-md-block">
-    <section class="banner-text">
+    <section class="banner-text"><a href="" class="text-decoration-none text-white">
     <h5 class="">Get it from the source!</h5>
-    <p class="">No middlemen, get all products from the source.</p>
+    <p class="">No middlemen, get all products from the source.</p></a>
   </section>
   </div>
 </div>
@@ -254,7 +269,7 @@ Best image width 1350px so as to center text properly
 <div class="container-fluid">
 <div class="row">
   <div class="card-deck card-s">
-  <div class="card filtersall">
+  <div class="card filtersall image-responsive">
     <img class="card-img-top card-image" src="images/egg.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Gifts</h5>
@@ -264,7 +279,7 @@ Best image width 1350px so as to center text properly
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>-->
   </div>
-  <div class="card filtersall">
+  <div class="card filtersall image-responsive">
     <img class="card-img-top card-image" src="images/house-pool.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Specials</h5>
@@ -274,7 +289,7 @@ Best image width 1350px so as to center text properly
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>-->
   </div>
-  <div class="card filtersall">
+  <div class="card filtersall image-responsive">
     <img class="card-img-top card-image" src="images/crowd.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Sellers</h5>
@@ -284,7 +299,7 @@ Best image width 1350px so as to center text properly
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>-->
   </div>
-  <div class="card filtersall">
+  <div class="card filtersall image-responsive">
     <img class="card-img-top card-image" src="images/logo-transparent.png" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">About</h5>
@@ -294,7 +309,7 @@ Best image width 1350px so as to center text properly
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>-->
   </div>
-  <div class="card filtersall">
+  <div class="card filtersall image-responsive">
     <img class="card-img-top card-image" src="images/diamonds.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Custom Jewellery</h5>
@@ -304,7 +319,7 @@ Best image width 1350px so as to center text properly
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>-->
   </div>
-  <div class="card filtersall">
+  <div class="card filtersall image-responsive">
     <img class="card-img-top card-image" src="images/munda.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Agriculture</h5>
@@ -440,8 +455,8 @@ Best image width 1350px so as to center text properly
 
 <!--FOOTER-->
        
-       <footer>
-           <div class="footer container-fluid ">
+       <footer class="panel-footer">
+           <div class="container-fluid ">
             <div class="row bg-dark text-light">
                <div class="col footer-text">
                  <ul class="footerleft text-align-left">

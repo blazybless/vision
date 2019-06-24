@@ -1,6 +1,7 @@
 body {
 	font-size: 12px;
     font-family: 'Mallanna', sans-serif;
+
 }
 
 /** HEADER **/
@@ -33,9 +34,6 @@ body {
 
 }
 **/
-.nav1 {
-	position: absolute;
-}
 
 
 .bannercon {
@@ -68,6 +66,14 @@ body {
     padding: 20px;
     /**text-align: center;
     margin: 0 auto**/
+}
+
+.row {
+	position: relative; 
+}
+
+.navbar-toggler-icon .navbar-toggler {
+	float: right;
 }
 
 #brand {
@@ -130,6 +136,14 @@ body {
 	font-size: 10px;
 }
 
+.prod {
+	text-decoration: none;
+
+}
+
+.prod:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
 
 
 /** HOME PAGE **/
