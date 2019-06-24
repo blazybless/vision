@@ -12,7 +12,10 @@ body {
 	height: 15px;
 }
 
+.sitename {
+	font-family: 'Fugaz One', cursive;
 
+}
 
 .txtbtw {
 	text-align: center;
