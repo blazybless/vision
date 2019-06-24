@@ -11,6 +11,11 @@ body {
 	height: 15px;
 }
 
+.nav {
+	background-color: #000011; opacity: 0.9;
+}
+
+
 .txtbtw {
 	text-align: center;
 	margin-top: 50px;
